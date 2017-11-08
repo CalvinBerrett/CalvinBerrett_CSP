@@ -16,7 +16,7 @@
 		A24C7E401FA25C0C00A929BA /* GlobalImpactScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C7E3F1FA25C0C00A929BA /* GlobalImpactScreen.swift */; };
 		A2A68C481FA256C30028611F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A68C471FA256C30028611F /* AppDelegate.swift */; };
 		A2A68C4A1FA256C30028611F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A68C491FA256C30028611F /* ViewController.swift */; };
-		A2A68C4D1FA256C30028611F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A68C4B1FA256C30028611F /* Main.storyboard */; };
+		A2A68C4D1FA256C30028611F /*  Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A68C4B1FA256C30028611F /*  Main.storyboard */; };
 		A2A68C4F1FA256C30028611F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A68C4E1FA256C30028611F /* Assets.xcassets */; };
 		A2A68C521FA256C30028611F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A68C501FA256C30028611F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -32,7 +32,7 @@
 		A2A68C441FA256C30028611F /* CalvinBerrett_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalvinBerrett_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A68C471FA256C30028611F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2A68C491FA256C30028611F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A2A68C4C1FA256C30028611F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2A68C4C1FA256C30028611F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/ Main.storyboard"; sourceTree = "<group>"; };
 		A2A68C4E1FA256C30028611F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A68C511FA256C30028611F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2A68C531FA256C30028611F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				A2A68C501FA256C30028611F /* LaunchScreen.storyboard */,
-				A2A68C4B1FA256C30028611F /* Main.storyboard */,
+				A2A68C4B1FA256C30028611F /*  Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,7 +178,7 @@
 			files = (
 				A2A68C521FA256C30028611F /* LaunchScreen.storyboard in Resources */,
 				A2A68C4F1FA256C30028611F /* Assets.xcassets in Resources */,
-				A2A68C4D1FA256C30028611F /* Main.storyboard in Resources */,
+				A2A68C4D1FA256C30028611F /*  Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,12 +204,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A2A68C4B1FA256C30028611F /* Main.storyboard */ = {
+		A2A68C4B1FA256C30028611F /*  Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A2A68C4C1FA256C30028611F /* Base */,
 			);
-			name = Main.storyboard;
+			name = " Main.storyboard";
 			sourceTree = "<group>";
 		};
 		A2A68C501FA256C30028611F /* LaunchScreen.storyboard */ = {
