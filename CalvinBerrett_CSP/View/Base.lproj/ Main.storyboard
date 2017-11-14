@@ -18,11 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44A-cn-k9h">
-                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <rect key="frame" x="164" y="318" width="47" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="Zmo-Bm-cEJ" kind="show" id="wTo-ay-fe1"/>
+                                    <segue destination="E5v-ax-4NS" kind="show" id="3kJ-6q-s6A"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -32,7 +32,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="110" y="116"/>
+            <point key="canvasLocation" x="109.59999999999999" y="115.59220389805098"/>
         </scene>
         <!--Data Info Screen-->
         <scene sceneID="eVc-S8-fvP">
@@ -122,6 +122,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="qgj-Z4-1bJ"/>
                     </view>
+                    <connections>
+                        <outlet property="imageOne" destination="v6G-bQ-5xF" id="Jap-nJ-6iu"/>
+                        <outlet property="secondLabel" destination="Kob-df-vSv" id="2i5-jt-XV8"/>
+                        <outlet property="thirdLabel" destination="1Ao-OP-aXt" id="x40-eH-Eco"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CWc-Vx-orq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
