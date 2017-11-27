@@ -14,6 +14,8 @@
 		A24C7E3C1FA25BDE00A929BA /* ProgrammingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C7E3B1FA25BDE00A929BA /* ProgrammingScreen.swift */; };
 		A24C7E3E1FA25BF200A929BA /* InternetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C7E3D1FA25BF200A929BA /* InternetScreen.swift */; };
 		A24C7E401FA25C0C00A929BA /* GlobalImpactScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C7E3F1FA25C0C00A929BA /* GlobalImpactScreen.swift */; };
+		A293A9A81FC362F4006FE68F /* Scrubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293A9A71FC362F4006FE68F /* Scrubs.swift */; };
+		A293A9AA1FC3632D006FE68F /* RektScrubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293A9A91FC3632D006FE68F /* RektScrubs.swift */; };
 		A2A68C481FA256C30028611F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A68C471FA256C30028611F /* AppDelegate.swift */; };
 		A2A68C4A1FA256C30028611F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A68C491FA256C30028611F /* ViewController.swift */; };
 		A2A68C4D1FA256C30028611F /*  Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A68C4B1FA256C30028611F /*  Main.storyboard */; };
@@ -29,6 +31,8 @@
 		A24C7E3B1FA25BDE00A929BA /* ProgrammingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingScreen.swift; sourceTree = "<group>"; };
 		A24C7E3D1FA25BF200A929BA /* InternetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetScreen.swift; sourceTree = "<group>"; };
 		A24C7E3F1FA25C0C00A929BA /* GlobalImpactScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactScreen.swift; sourceTree = "<group>"; };
+		A293A9A71FC362F4006FE68F /* Scrubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrubs.swift; sourceTree = "<group>"; };
+		A293A9A91FC3632D006FE68F /* RektScrubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RektScrubs.swift; sourceTree = "<group>"; };
 		A2A68C441FA256C30028611F /* CalvinBerrett_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalvinBerrett_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A68C471FA256C30028611F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2A68C491FA256C30028611F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 		A2A68C5E1FA257430028611F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A293A9A71FC362F4006FE68F /* Scrubs.swift */,
+				A293A9A91FC3632D006FE68F /* RektScrubs.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,12 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A293A9A81FC362F4006FE68F /* Scrubs.swift in Sources */,
 				A24C7E3E1FA25BF200A929BA /* InternetScreen.swift in Sources */,
 				A24C7E3C1FA25BDE00A929BA /* ProgrammingScreen.swift in Sources */,
 				A24C7E371FA25BB300A929BA /* Data&InfoScreen.swift in Sources */,
 				A24C7E401FA25C0C00A929BA /* GlobalImpactScreen.swift in Sources */,
 				A24C7E351FA25B9A00A929BA /* AbstractionScreen.swift in Sources */,
 				A24C7E331FA25B7A00A929BA /* CreativityScreen.swift in Sources */,
+				A293A9AA1FC3632D006FE68F /* RektScrubs.swift in Sources */,
 				A2A68C4A1FA256C30028611F /* ViewController.swift in Sources */,
 				A2A68C481FA256C30028611F /* AppDelegate.swift in Sources */,
 				A24C7E3A1FA25BCC00A929BA /* AlgorithmsScreen.swift in Sources */,
