@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A24173561FCF373A001232A3 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24173551FCF373A001232A3 /* InternetMasterViewController.swift */; };
+		A24173591FCF3B99001232A3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24173581FCF3B99001232A3 /* WebKit.framework */; };
+		A241735B1FCF3C79001232A3 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A241735A1FCF3C79001232A3 /* InternetDetailViewController.swift */; };
 		A24C7E331FA25B7A00A929BA /* CreativityScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C7E321FA25B7A00A929BA /* CreativityScreen.swift */; };
 		A24C7E351FA25B9A00A929BA /* AbstractionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C7E341FA25B9A00A929BA /* AbstractionScreen.swift */; };
 		A24C7E371FA25BB300A929BA /* Data&InfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C7E361FA25BB300A929BA /* Data&InfoScreen.swift */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A24173551FCF373A001232A3 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
+		A24173581FCF3B99001232A3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A241735A1FCF3C79001232A3 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		A24C7E321FA25B7A00A929BA /* CreativityScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityScreen.swift; sourceTree = "<group>"; };
 		A24C7E341FA25B9A00A929BA /* AbstractionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionScreen.swift; sourceTree = "<group>"; };
 		A24C7E361FA25BB300A929BA /* Data&InfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data&InfoScreen.swift"; sourceTree = "<group>"; };
@@ -47,17 +53,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A24173591FCF3B99001232A3 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A24173571FCF3B99001232A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A24173581FCF3B99001232A3 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A2A68C3B1FA256C30028611F = {
 			isa = PBXGroup;
 			children = (
 				A2A68C461FA256C30028611F /* CalvinBerrett_CSP */,
 				A2A68C451FA256C30028611F /* Products */,
+				A24173571FCF3B99001232A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +108,8 @@
 				A24C7E3B1FA25BDE00A929BA /* ProgrammingScreen.swift */,
 				A24C7E3D1FA25BF200A929BA /* InternetScreen.swift */,
 				A24C7E3F1FA25C0C00A929BA /* GlobalImpactScreen.swift */,
+				A24173551FCF373A001232A3 /* InternetMasterViewController.swift */,
+				A241735A1FCF3C79001232A3 /* InternetDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,9 +214,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A293A9A81FC362F4006FE68F /* Scrubs.swift in Sources */,
+				A24173561FCF373A001232A3 /* InternetMasterViewController.swift in Sources */,
 				A24C7E3E1FA25BF200A929BA /* InternetScreen.swift in Sources */,
 				A24C7E3C1FA25BDE00A929BA /* ProgrammingScreen.swift in Sources */,
 				A24C7E371FA25BB300A929BA /* Data&InfoScreen.swift in Sources */,
+				A241735B1FCF3C79001232A3 /* InternetDetailViewController.swift in Sources */,
 				A24C7E401FA25C0C00A929BA /* GlobalImpactScreen.swift in Sources */,
 				A24C7E351FA25B9A00A929BA /* AbstractionScreen.swift in Sources */,
 				A24C7E331FA25B7A00A929BA /* CreativityScreen.swift in Sources */,
