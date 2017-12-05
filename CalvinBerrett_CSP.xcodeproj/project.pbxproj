@@ -24,6 +24,7 @@
 		A2A68C4D1FA256C30028611F /*  Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A68C4B1FA256C30028611F /*  Main.storyboard */; };
 		A2A68C4F1FA256C30028611F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A68C4E1FA256C30028611F /* Assets.xcassets */; };
 		A2A68C521FA256C30028611F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A68C501FA256C30028611F /* LaunchScreen.storyboard */; };
+		A2CCFA201FD72A8C00421559 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCFA1F1FD72A8C00421559 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		A2A68C4E1FA256C30028611F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A68C511FA256C30028611F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2A68C531FA256C30028611F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CCFA1F1FD72A8C00421559 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			children = (
 				A2A68C501FA256C30028611F /* LaunchScreen.storyboard */,
 				A2A68C4B1FA256C30028611F /*  Main.storyboard */,
+				A2CCFA1F1FD72A8C00421559 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				A24C7E371FA25BB300A929BA /* Data&InfoScreen.swift in Sources */,
 				A241735B1FCF3C79001232A3 /* InternetDetailViewController.swift in Sources */,
 				A24C7E401FA25C0C00A929BA /* GlobalImpactScreen.swift in Sources */,
+				A2CCFA201FD72A8C00421559 /* DrawingView.swift in Sources */,
 				A24C7E351FA25B9A00A929BA /* AbstractionScreen.swift in Sources */,
 				A24C7E331FA25B7A00A929BA /* CreativityScreen.swift in Sources */,
 				A293A9AA1FC3632D006FE68F /* RektScrubs.swift in Sources */,
