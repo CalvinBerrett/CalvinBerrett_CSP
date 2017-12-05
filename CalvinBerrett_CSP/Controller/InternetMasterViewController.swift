@@ -23,8 +23,27 @@ class InternetMasterViewController: UITableViewController
         ]
     }()
     
+    private lazy var addresses : [String] = []
+    
+    private var detailViewController : InternetDetailViewController?
+    
     private func setup() -> Void
     {
+        //TODO: Replace with your correctlinks
+        addresses = [
+            "https://www.google.com",
+            "https://www.twitter.com",
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com"
+        ]
+        if let splitView = splitViewController
+        {
+            let currentControllers = splitView.viewControllers
+            detailViewController = currentControllers[0] as?
+                InternetDetailViewController
+        }
     }
     override func viewDidLoad()
     {
@@ -53,5 +72,35 @@ class InternetMasterViewController: UITableViewController
         cell.textLabel!.text = currentText
         
         return cell
+    }
+    
+    override public func prepare(for seque: UIStoryboardSeque, sender: Any?)
+    {
+        if seque.identifier! == "showDetail"
+        {
+            if let indexPath = self.tableView.indexPathForSelectedRow
+            {
+                let urlString = addresses[indexPath.row]
+                let pageText : String
+                
+                if indexPath.row == 0
+                {
+                    //TODO: Replace with your definitions - great time to use teh """ operator
+                    pageText = "All the definitons you wrote..."
+                }
+                else
+                {
+                    pageText = internetTopics[indexPath.row]
+                }
+                
+                let controller = seque.destination as!
+                    InternetDetailViewController
+                
+                controller.detailAddress = urlString
+                controller.detailText = pageText
+                controller.navigation.leftBarButtonItem = splitViewController?.displayModeButtonItem
+                controller.navigationItem.leftItemsSupplementBackButton = true
+            }
+        }
     }
 }

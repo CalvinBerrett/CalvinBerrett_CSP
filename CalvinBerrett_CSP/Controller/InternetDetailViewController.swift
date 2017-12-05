@@ -7,31 +7,70 @@
 //
 
 import UIKit
+import WebKit
 
-class InternetDetailViewController: UIViewController {
+public class InternetDetailViewController: UIViewController
+{
 
     @IBOutlet weak var textView: UILabel!
     @IBOutlet weak var webViewer: WKWebView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    var detailAddress : String?
+    {
+        //MARK: Update the detail view when a value is chagned.
+        didSet
+        {
+            configureDetailView()
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    var detailText : String?
+    {
+        didSet
+        {
+            configureDetailView()
+        }
     }
-    */
-
+    
+    override public func viewDidLoad()
+    {
+        super.viewDidLoad()
+        
+        // Do any additional setup after loading the view.
+    }
+    
+    private func configureDetailView() -> Void
+    {
+        if detailAddress != nil
+        {
+            if let currentWebView = webViewer
+            {
+                let currentURL = URL(string: detailAddress!)
+                let currentWebRequest = URLRequest(url: currentURL!)
+                currentWebView.load(currentWebRequest)
+            }
+        }
+        else
+        {
+            if let currentWebView = webViewer
+            {
+                let currentURL = URL(string: "https://www.cnn.com")
+                currentWebView.load(URLRequest(url:currentURL!))
+            }
+        }
+        if detailText != nil
+        {
+            if let currentText = textView
+            {
+                currentText.text = detailText
+            }
+        }
+        else
+        {
+            if let currentText = textView
+            {
+                currentText.text = "Calvin's CSP app internet screen"
+            }
+        }
+    }
 }
