@@ -6,9 +6,14 @@
 //  Copyright © 2017 Berrett, Calvin. All rights reserved.
 //
 
-import Foundation
-public class nubScrubs : Scrubs
+import UIKit
+public class NubScrubs : Scrubs
 {
+    public func isRekt() -> Bool
+    {
+        return false
+    }
+    
     private var scrubColor : UIColor
     //MARK: Squishable data member
     public var rektState : Bool

@@ -43,7 +43,7 @@ public class AbstractionScreen: UIPageViewController, UIPageViewControllerDataSo
     }
     
     //MARK:- Required Protocol methods for UIPageViewControllerDatasource
-    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController?
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController?
     {
         guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
         else
@@ -109,12 +109,7 @@ public class AbstractionScreen: UIPageViewController, UIPageViewControllerDataSo
         return firstViewControllerIndex
     }
 
-    override func didReceiveMemoryWarning()
-    {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+ 
 
     /*
     // MARK: - Navigation
