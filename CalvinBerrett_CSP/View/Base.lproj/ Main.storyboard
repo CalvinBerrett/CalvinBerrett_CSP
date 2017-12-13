@@ -126,7 +126,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="quk-9E-9G0" kind="showDetail" id="f2n-wG-HwS"/>
+                                    <segue destination="aZJ-zL-0qQ" kind="showDetail" id="KNL-T6-hbi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -192,7 +192,7 @@
         <scene sceneID="RhS-Ai-t1q">
             <objects>
                 <viewController id="aZJ-zL-0qQ" customClass="ProgrammingScreen" customModule="CalvinBerrett_CSP" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vG7-Ho-gei">
+                    <view key="view" contentMode="scaleToFill" id="vG7-Ho-gei" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
