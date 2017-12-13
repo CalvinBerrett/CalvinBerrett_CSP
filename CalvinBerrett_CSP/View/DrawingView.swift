@@ -16,8 +16,8 @@ class DrawingView: UIView
     {
         //Drawing code
         drawStickFigure().stroke()
-//      drawTurtle()
-//      drawHappyTree()
+        drawTurtle()
+        drawHappyTree()
     }
     
     private func drawStickFigure() -> UIBezierPath

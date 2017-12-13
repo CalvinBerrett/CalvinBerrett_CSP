@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CalvinBerrett_CSP.xcodeproj">
+      location = "group:/Users/cber6181/XCodeProjects/CalvinBerrett_CSP/CalvinBerrett_CSP/Controller/GameScene.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

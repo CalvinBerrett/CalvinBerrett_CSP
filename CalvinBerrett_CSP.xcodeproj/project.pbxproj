@@ -17,14 +17,28 @@
 		A24C7E3C1FA25BDE00A929BA /* ProgrammingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C7E3B1FA25BDE00A929BA /* ProgrammingScreen.swift */; };
 		A24C7E3E1FA25BF200A929BA /* InternetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C7E3D1FA25BF200A929BA /* InternetScreen.swift */; };
 		A24C7E401FA25C0C00A929BA /* GlobalImpactScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C7E3F1FA25C0C00A929BA /* GlobalImpactScreen.swift */; };
-		A293A9A81FC362F4006FE68F /* Scrubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293A9A71FC362F4006FE68F /* Scrubs.swift */; };
-		A293A9AA1FC3632D006FE68F /* RektScrubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293A9A91FC3632D006FE68F /* RektScrubs.swift */; };
+		A25433E81FD9DCA5006E8A29 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25433E71FD9DCA5006E8A29 /* ArtCell.swift */; };
 		A2A68C481FA256C30028611F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A68C471FA256C30028611F /* AppDelegate.swift */; };
 		A2A68C4A1FA256C30028611F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A68C491FA256C30028611F /* ViewController.swift */; };
 		A2A68C4D1FA256C30028611F /*  Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A68C4B1FA256C30028611F /*  Main.storyboard */; };
 		A2A68C4F1FA256C30028611F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A68C4E1FA256C30028611F /* Assets.xcassets */; };
 		A2A68C521FA256C30028611F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A68C501FA256C30028611F /* LaunchScreen.storyboard */; };
 		A2CCFA201FD72A8C00421559 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCFA1F1FD72A8C00421559 /* DrawingView.swift */; };
+		A2F5EEA11FE1AB49001801AA /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5EEA01FE1AB49001801AA /* LevelCompleteScene.swift */; };
+		A2F5EEA31FE1AB50001801AA /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5EEA21FE1AB50001801AA /* StartScene.swift */; };
+		A2F5EEAA1FE1AC89001801AA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5EEA91FE1AC89001801AA /* GameScene.swift */; };
+		A2F5EEB11FE1ADA4001801AA /* boss sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2F5EEAC1FE1ADA3001801AA /* boss sound.mp3 */; };
+		A2F5EEB21FE1ADA4001801AA /* laser sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2F5EEAD1FE1ADA4001801AA /* laser sound.mp3 */; };
+		A2F5EEB31FE1ADA4001801AA /* invader sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2F5EEAE1FE1ADA4001801AA /* invader sound.mp3 */; };
+		A2F5EEB41FE1ADA4001801AA /* powerup sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2F5EEAF1FE1ADA4001801AA /* powerup sound.mp3 */; };
+		A2F5EEB51FE1ADA4001801AA /* extra sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2F5EEB01FE1ADA4001801AA /* extra sound.mp3 */; };
+		A2F5EEB81FE1ADF5001801AA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5EEB71FE1ADF5001801AA /* Utilities.swift */; };
+		A2F5EEBE1FE1AE55001801AA /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5EEB91FE1AE55001801AA /* Invader.swift */; };
+		A2F5EEBF1FE1AE55001801AA /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5EEBA1FE1AE55001801AA /* Player.swift */; };
+		A2F5EEC01FE1AE55001801AA /* PlayerLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5EEBB1FE1AE55001801AA /* PlayerLaser.swift */; };
+		A2F5EEC11FE1AE55001801AA /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5EEBC1FE1AE55001801AA /* Projectile.swift */; };
+		A2F5EEC21FE1AE55001801AA /* InvaderLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5EEBD1FE1AE55001801AA /* InvaderLaser.swift */; };
+		A2F5EEC41FE1AF80001801AA /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2F5EEC31FE1AF7F001801AA /* StarField.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +52,7 @@
 		A24C7E3B1FA25BDE00A929BA /* ProgrammingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingScreen.swift; sourceTree = "<group>"; };
 		A24C7E3D1FA25BF200A929BA /* InternetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetScreen.swift; sourceTree = "<group>"; };
 		A24C7E3F1FA25C0C00A929BA /* GlobalImpactScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactScreen.swift; sourceTree = "<group>"; };
-		A293A9A71FC362F4006FE68F /* Scrubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrubs.swift; sourceTree = "<group>"; };
-		A293A9A91FC3632D006FE68F /* RektScrubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RektScrubs.swift; sourceTree = "<group>"; };
+		A25433E71FD9DCA5006E8A29 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		A2A68C441FA256C30028611F /* CalvinBerrett_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalvinBerrett_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A68C471FA256C30028611F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2A68C491FA256C30028611F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +61,21 @@
 		A2A68C511FA256C30028611F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2A68C531FA256C30028611F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2CCFA1F1FD72A8C00421559 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		A2F5EEA01FE1AB49001801AA /* LevelCompleteScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
+		A2F5EEA21FE1AB50001801AA /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		A2F5EEA91FE1AC89001801AA /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A2F5EEAC1FE1ADA3001801AA /* boss sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "boss sound.mp3"; sourceTree = "<group>"; };
+		A2F5EEAD1FE1ADA4001801AA /* laser sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laser sound.mp3"; sourceTree = "<group>"; };
+		A2F5EEAE1FE1ADA4001801AA /* invader sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "invader sound.mp3"; sourceTree = "<group>"; };
+		A2F5EEAF1FE1ADA4001801AA /* powerup sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "powerup sound.mp3"; sourceTree = "<group>"; };
+		A2F5EEB01FE1ADA4001801AA /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "extra sound.mp3"; sourceTree = "<group>"; };
+		A2F5EEB71FE1ADF5001801AA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A2F5EEB91FE1AE55001801AA /* Invader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
+		A2F5EEBA1FE1AE55001801AA /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A2F5EEBB1FE1AE55001801AA /* PlayerLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerLaser.swift; sourceTree = "<group>"; };
+		A2F5EEBC1FE1AE55001801AA /* Projectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
+		A2F5EEBD1FE1AE55001801AA /* InvaderLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvaderLaser.swift; sourceTree = "<group>"; };
+		A2F5EEC31FE1AF7F001801AA /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +129,11 @@
 		A2A68C5C1FA257180028611F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A2F5EEAB1FE1AC96001801AA /* GameController */,
 				A2A68C491FA256C30028611F /* ViewController.swift */,
 				A2A68C471FA256C30028611F /* AppDelegate.swift */,
 				A24C7E321FA25B7A00A929BA /* CreativityScreen.swift */,
+				A25433E71FD9DCA5006E8A29 /* ArtCell.swift */,
 				A24C7E341FA25B9A00A929BA /* AbstractionScreen.swift */,
 				A24C7E391FA25BCC00A929BA /* AlgorithmsScreen.swift */,
 				A24C7E361FA25BB300A929BA /* Data&InfoScreen.swift */,
@@ -119,6 +149,7 @@
 		A2A68C5D1FA257350028611F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A2F5EEC31FE1AF7F001801AA /* StarField.sks */,
 				A2A68C501FA256C30028611F /* LaunchScreen.storyboard */,
 				A2A68C4B1FA256C30028611F /*  Main.storyboard */,
 				A2CCFA1F1FD72A8C00421559 /* DrawingView.swift */,
@@ -129,8 +160,11 @@
 		A2A68C5E1FA257430028611F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A293A9A71FC362F4006FE68F /* Scrubs.swift */,
-				A293A9A91FC3632D006FE68F /* RektScrubs.swift */,
+				A2F5EEB91FE1AE55001801AA /* Invader.swift */,
+				A2F5EEBD1FE1AE55001801AA /* InvaderLaser.swift */,
+				A2F5EEBA1FE1AE55001801AA /* Player.swift */,
+				A2F5EEBB1FE1AE55001801AA /* PlayerLaser.swift */,
+				A2F5EEBC1FE1AE55001801AA /* Projectile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -138,10 +172,34 @@
 		A2A68C601FA257520028611F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A2F5EEB71FE1ADF5001801AA /* Utilities.swift */,
+				A2F5EEB61FE1ADE3001801AA /* Sounds */,
 				A2A68C4E1FA256C30028611F /* Assets.xcassets */,
 				A2A68C531FA256C30028611F /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A2F5EEAB1FE1AC96001801AA /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				A2F5EEA91FE1AC89001801AA /* GameScene.swift */,
+				A2F5EEA21FE1AB50001801AA /* StartScene.swift */,
+				A2F5EEA01FE1AB49001801AA /* LevelCompleteScene.swift */,
+			);
+			path = GameController;
+			sourceTree = "<group>";
+		};
+		A2F5EEB61FE1ADE3001801AA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A2F5EEAC1FE1ADA3001801AA /* boss sound.mp3 */,
+				A2F5EEB01FE1ADA4001801AA /* extra sound.mp3 */,
+				A2F5EEAE1FE1ADA4001801AA /* invader sound.mp3 */,
+				A2F5EEAD1FE1ADA4001801AA /* laser sound.mp3 */,
+				A2F5EEAF1FE1ADA4001801AA /* powerup sound.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,9 +261,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F5EEB21FE1ADA4001801AA /* laser sound.mp3 in Resources */,
+				A2F5EEB11FE1ADA4001801AA /* boss sound.mp3 in Resources */,
+				A2F5EEB51FE1ADA4001801AA /* extra sound.mp3 in Resources */,
 				A2A68C521FA256C30028611F /* LaunchScreen.storyboard in Resources */,
 				A2A68C4F1FA256C30028611F /* Assets.xcassets in Resources */,
+				A2F5EEB41FE1ADA4001801AA /* powerup sound.mp3 in Resources */,
+				A2F5EEC41FE1AF80001801AA /* StarField.sks in Resources */,
 				A2A68C4D1FA256C30028611F /*  Main.storyboard in Resources */,
+				A2F5EEB31FE1ADA4001801AA /* invader sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,18 +280,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A293A9A81FC362F4006FE68F /* Scrubs.swift in Sources */,
 				A24173561FCF373A001232A3 /* InternetMasterViewController.swift in Sources */,
+				A2F5EEA11FE1AB49001801AA /* LevelCompleteScene.swift in Sources */,
+				A25433E81FD9DCA5006E8A29 /* ArtCell.swift in Sources */,
+				A2F5EEBF1FE1AE55001801AA /* Player.swift in Sources */,
 				A24C7E3E1FA25BF200A929BA /* InternetScreen.swift in Sources */,
+				A2F5EEC01FE1AE55001801AA /* PlayerLaser.swift in Sources */,
 				A24C7E3C1FA25BDE00A929BA /* ProgrammingScreen.swift in Sources */,
+				A2F5EEA31FE1AB50001801AA /* StartScene.swift in Sources */,
 				A24C7E371FA25BB300A929BA /* Data&InfoScreen.swift in Sources */,
 				A241735B1FCF3C79001232A3 /* InternetDetailViewController.swift in Sources */,
 				A24C7E401FA25C0C00A929BA /* GlobalImpactScreen.swift in Sources */,
 				A2CCFA201FD72A8C00421559 /* DrawingView.swift in Sources */,
+				A2F5EEC21FE1AE55001801AA /* InvaderLaser.swift in Sources */,
 				A24C7E351FA25B9A00A929BA /* AbstractionScreen.swift in Sources */,
+				A2F5EEAA1FE1AC89001801AA /* GameScene.swift in Sources */,
+				A2F5EEC11FE1AE55001801AA /* Projectile.swift in Sources */,
+				A2F5EEB81FE1ADF5001801AA /* Utilities.swift in Sources */,
 				A24C7E331FA25B7A00A929BA /* CreativityScreen.swift in Sources */,
-				A293A9AA1FC3632D006FE68F /* RektScrubs.swift in Sources */,
 				A2A68C4A1FA256C30028611F /* ViewController.swift in Sources */,
+				A2F5EEBE1FE1AE55001801AA /* Invader.swift in Sources */,
 				A2A68C481FA256C30028611F /* AppDelegate.swift in Sources */,
 				A24C7E3A1FA25BCC00A929BA /* AlgorithmsScreen.swift in Sources */,
 			);
@@ -367,7 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CalvinBerrett_CSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CalvinBerrett_CSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Berrett--Calvin.CalvinBerrett-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,7 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CalvinBerrett_CSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CalvinBerrett_CSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Berrett--Calvin.CalvinBerrett-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";

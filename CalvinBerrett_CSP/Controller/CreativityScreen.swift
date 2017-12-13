@@ -11,8 +11,8 @@ import UIKit
 public class CreativityScreen: UICollectionViewController, UICollectionViewDelegateFlowLayout
 {
     private let reuseIdentifier = "artIdentifier"
-    private let sectioninsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
-    private let itemsPerRw : CGFloat = 3
+    private let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
+    private let itemsPerRow : CGFloat = 3
     
     private lazy var artSelection : [UIImage?] =
     {
@@ -84,7 +84,7 @@ public class CreativityScreen: UICollectionViewController, UICollectionViewDeleg
         let artCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ArtCell
         
         artCell.backgroundColor = .purple
-        artCell.imageView.impage = artSelection[indexPath.row]
+        artCell.imageView.image = artSelection[indexPath.row]
         artCell.imageName.text = "My Art"
         
         return artCell
@@ -92,14 +92,14 @@ public class CreativityScreen: UICollectionViewController, UICollectionViewDeleg
     
     public func collectionView(_ collectionView: UICollectionView,
                                layout collectioVewLayout: UICollectionViewLayout,
-                               sizeForItemAt indexPath: IndexPath: IndexPath) -> CGSize
+                               sizeForItemAt indexPath: IndexPath) -> CGSize
     {
         if indexPath == largePhotoIndexPath
         {
             let art = artSelection[indexPath.row]
             let size = collectionView.bounds.size
             let widthScale = (size.width / art!.size.width) * CGFloat(0.80)
-            let largeSize = CGSize(width: art!.size.width * widthScale, height: art!.size.height *widthScale)
+            let largeSize = CGSize(width: art!.size.width * widthScale, height: art!.size.height * widthScale)
             
             return largeSize
         }
@@ -126,7 +126,7 @@ public class CreativityScreen: UICollectionViewController, UICollectionViewDeleg
     }
     
     override public func collectionView(_ collectionView: UICollectionView,
-                                        shouldSelectionItemAt indexPath: IndexPath) -> Bool
+                                        shouldSelectItemAt indexPath: IndexPath) -> Bool
     {
         if largePhotoIndexPath == indexPath
         {
