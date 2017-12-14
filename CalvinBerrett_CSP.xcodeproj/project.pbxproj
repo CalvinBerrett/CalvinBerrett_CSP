@@ -161,10 +161,10 @@
 			isa = PBXGroup;
 			children = (
 				A2F5EEB91FE1AE55001801AA /* Invader.swift */,
-				A2F5EEBD1FE1AE55001801AA /* InvaderLaser.swift */,
 				A2F5EEBA1FE1AE55001801AA /* Player.swift */,
-				A2F5EEBB1FE1AE55001801AA /* PlayerLaser.swift */,
 				A2F5EEBC1FE1AE55001801AA /* Projectile.swift */,
+				A2F5EEBD1FE1AE55001801AA /* InvaderLaser.swift */,
+				A2F5EEBB1FE1AE55001801AA /* PlayerLaser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
