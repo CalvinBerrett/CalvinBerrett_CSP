@@ -18,6 +18,7 @@
 		A24C7E3E1FA25BF200A929BA /* InternetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C7E3D1FA25BF200A929BA /* InternetScreen.swift */; };
 		A24C7E401FA25C0C00A929BA /* GlobalImpactScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C7E3F1FA25C0C00A929BA /* GlobalImpactScreen.swift */; };
 		A25433E81FD9DCA5006E8A29 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25433E71FD9DCA5006E8A29 /* ArtCell.swift */; };
+		A2A1C0B51FE9B15F003ABEEC /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A1C0B41FE9B15F003ABEEC /* DeathScene.swift */; };
 		A2A68C481FA256C30028611F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A68C471FA256C30028611F /* AppDelegate.swift */; };
 		A2A68C4A1FA256C30028611F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A68C491FA256C30028611F /* ViewController.swift */; };
 		A2A68C4D1FA256C30028611F /*  Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A68C4B1FA256C30028611F /*  Main.storyboard */; };
@@ -53,6 +54,7 @@
 		A24C7E3D1FA25BF200A929BA /* InternetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetScreen.swift; sourceTree = "<group>"; };
 		A24C7E3F1FA25C0C00A929BA /* GlobalImpactScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactScreen.swift; sourceTree = "<group>"; };
 		A25433E71FD9DCA5006E8A29 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+		A2A1C0B41FE9B15F003ABEEC /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 		A2A68C441FA256C30028611F /* CalvinBerrett_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalvinBerrett_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A68C471FA256C30028611F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2A68C491FA256C30028611F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				A2F5EEA91FE1AC89001801AA /* GameScene.swift */,
 				A2F5EEA21FE1AB50001801AA /* StartScene.swift */,
 				A2F5EEA01FE1AB49001801AA /* LevelCompleteScene.swift */,
+				A2A1C0B41FE9B15F003ABEEC /* DeathScene.swift */,
 			);
 			path = GameController;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				A2F5EEA31FE1AB50001801AA /* StartScene.swift in Sources */,
 				A24C7E371FA25BB300A929BA /* Data&InfoScreen.swift in Sources */,
 				A241735B1FCF3C79001232A3 /* InternetDetailViewController.swift in Sources */,
+				A2A1C0B51FE9B15F003ABEEC /* DeathScene.swift in Sources */,
 				A24C7E401FA25C0C00A929BA /* GlobalImpactScreen.swift in Sources */,
 				A2CCFA201FD72A8C00421559 /* DrawingView.swift in Sources */,
 				A2F5EEC21FE1AE55001801AA /* InvaderLaser.swift in Sources */,

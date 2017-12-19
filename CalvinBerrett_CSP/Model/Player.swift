@@ -65,22 +65,57 @@ public class Player: SKSpriteNode
     
     public func die () -> Void
     {
-        
+        if(!invincible)
+        {
+            lives -= 1
+        }
     }
     
     public func kill() -> Void
     {
-    
+        gameLevel = 1
+        
+        let gameOverScene = DeathScene(size: self.scene!.size)
+        gameOverScene.scaleMode = self.scene!.scaleMode
+        let transitionType = SKTransition.flipHorizontal(withDuration: 1)
+        self.scene!.view!.presentScene(gameOverScene,transition: transitionType)
     }
     
     public func respawn() -> Void
     {
-        
+        invincible = true
+        let fadeOutAction = SKAction.fadeOut(withDuration: 0.4)
+        let fadeInAction = SKAction.fadeIn(withDuration: 0.4)
+        let fadeOutIn = SKAction.sequence([fadeOutAction, fadeInAction])
+        let fadeOutInAction = SKAction.repeat(fadeOutIn, count: 5)
+        {
+            self.invincible = false
+        }
+        run(SKAction.sequence([fadeOutInActoin,setInvincibleFalse]))
     }
     
     public func fireBullet(scene: SKScene) -> Void
     {
-        
+        if(!canFire)
+        {
+            return
+        }
+        else
+        {
+            canFire = false
+            let bullet = PlayerLaser(imageName: "laser", bulletSound: "laser sound.mp3")
+            bullet.position.x = self.position.x
+            bullet.position.y = self.position.y + self.size.height / 2
+            scene.addChild(bullet)
+            let moveBulletAction = SKAction.move(to:CGPoint(x:self.position.x,y:scene.size.height + bullet.size.height), duration: 1.0)
+            let removBulletAction = SKAction.removeFromParent()
+            bullet.run(SKAction.sequence([moveBulletAction,removBulletAction]))
+            let waitToEnableFire = SKAction.wait(forDuration: 0.5)
+            run(waitToEnableFire,completion:
+                {
+                    self.canFire = true
+                })
+        }
     }
 
 }
