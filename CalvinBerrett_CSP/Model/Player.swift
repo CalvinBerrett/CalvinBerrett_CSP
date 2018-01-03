@@ -88,10 +88,11 @@ public class Player: SKSpriteNode
         let fadeInAction = SKAction.fadeIn(withDuration: 0.4)
         let fadeOutIn = SKAction.sequence([fadeOutAction, fadeInAction])
         let fadeOutInAction = SKAction.repeat(fadeOutIn, count: 5)
+        let setInvincibleFalse = SKAction.run()
         {
             self.invincible = false
         }
-        run(SKAction.sequence([fadeOutInActoin,setInvincibleFalse]))
+        run(SKAction.sequence([fadeOutInAction,setInvincibleFalse]))
     }
     
     public func fireBullet(scene: SKScene) -> Void
