@@ -122,11 +122,11 @@
                                 <color key="backgroundColor" red="0.28610181781535782" green="0.83640402746434073" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44A-cn-k9h">
-                                <rect key="frame" x="164" y="571" width="47" height="30"/>
+                                <rect key="frame" x="97" y="457" width="180" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="aZJ-zL-0qQ" kind="showDetail" id="KNL-T6-hbi"/>
+                                    <segue destination="aZJ-zL-0qQ" kind="showDetail" id="S2K-84-Eoh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -468,7 +468,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lk4-Oe-0KE">
-                                            <rect key="frame" x="10" y="0.0" width="250" height="250"/>
+                                            <rect key="frame" x="10" y="0.0" width="230" height="250"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuY-i1-T42">
                                             <rect key="frame" x="0.0" y="279" width="250" height="21"/>

@@ -14,7 +14,7 @@ class InternetMasterViewController: UITableViewController
     private (set) lazy var internetTopics : [String] =
     {
         return[
-            "Definitions",
+            "Google",
             "CSP",
             "CTEC",
             "Canyons",
@@ -32,11 +32,11 @@ class InternetMasterViewController: UITableViewController
         //TODO: Replace with your correctlinks
         addresses = [
             "https://www.google.com",
+            "https://apstudent.collegeboard.org/apcourse/ap-computer-science-principles",
+            "https://ctec.canyonsdistrict.org/",
+            "http://www.canyonsdistrict.org/",
             "https://www.twitter.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com"
+            "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html"
         ]
         if let splitView = splitViewController
         {
