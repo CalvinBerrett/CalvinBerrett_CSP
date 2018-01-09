@@ -318,10 +318,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ker-ZJ-mKI" customClass="BucketItemCell" customModule="CalvinBerrett_CSP" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="dataIdentifier" id="ker-ZJ-mKI" customClass="BucketItemCell" customModule="CalvinBerrett_CSP" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ker-ZJ-mKI" id="nY3-oy-C0x">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ker-ZJ-mKI" id="nY3-oy-C0x" customClass="BucketItemCell" customModule="CalvinBerrett_CSP" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
@@ -348,6 +348,11 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bucketItemSignature" destination="yB7-PF-grY" id="PgF-w5-Lii"/>
+                                    <outlet property="bucketItemSymbol" destination="pnl-AF-c3i" id="chc-9x-Nib"/>
+                                    <outlet property="bucketItemText" destination="Qg8-P8-IXj" id="8fO-cg-sXO"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
