@@ -12,7 +12,7 @@ class Data_InfoScreen: UITableViewController
 {
     lazy var bucketList : [BucketItem] =
     {
-            return loadBucketListFromFile()
+        return loadBucketFromFile()
     }()
     
     private func loadBucketFromFile() -> [BucketItem]
@@ -23,11 +23,11 @@ class Data_InfoScreen: UITableViewController
             do
             {
                 let input = try String(contentsOf: filePath)
-                let bucketLines = input.components(seperatedBy: "\n")
+                let bucketLines = input.components(separatedBy: "\n")
                 for line in bucketLines
                 {
-                    let item = line.components(seperatedBy: ",")
-                    items.append(BucketItem(contents: item[0],author: item item[1]))
+                    let item = line.components(separatedBy: ",")
+                    items.append(BucketItem(contents: item[0],author: item[1]))
                 }
             }
             catch
@@ -45,7 +45,7 @@ class Data_InfoScreen: UITableViewController
     
     override public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return buckeList.count
+        return bucketList.count
     }
     
     override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell

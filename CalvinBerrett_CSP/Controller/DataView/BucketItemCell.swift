@@ -34,10 +34,10 @@ class BucketItemCell: UITableViewCell
         
         let ascii = emojiStart + Int(arc4random_uniform(UInt32(emojiRange)))
         let emoji = UnicodeScalar(ascii)?.description
-        return emoji
+        return emoji!
     }
     
-    private func updateCellView
+    private func updateCellView()
     {
         if (bucketItem != nil)
         {
@@ -50,7 +50,7 @@ class BucketItemCell: UITableViewCell
             bucketItemText.text = "text goes here"
         }
         
-        bucketItemSymbol.text - randomEmojiSymbol()
+        bucketItemSymbol.text = randomEmoji()
     }
     
     override func awakeFromNib()
