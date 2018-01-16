@@ -72,6 +72,7 @@ class DrawingView: UIView
         cuteElephant.addLine(to: CGPoint(x:80, y:250))
         cuteElephant.lineWidth = 6.0
         cuteElephant.stroke()
+        
     }
     
     public func drawTurtle() -> Void
